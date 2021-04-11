@@ -56,7 +56,7 @@ set ruler
 set cursorline
 "set backspace=indent,eol,start
 
-colorscheme jellybeans
+"colorscheme jellybeans
 
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 map <Leader>nt <ESC>:NERDTree<CR>
@@ -81,7 +81,7 @@ set fileencoding=korea
 endif
 
 syntax enable
-color jellybeans
+"color jellybeans
 
 nmap <F8> :SrcExplToggle<CR>                "F8 Key = SrcExpl Toggling
 nmap <C-H> <C-W>h                           "move to left
